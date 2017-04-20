@@ -1,0 +1,8 @@
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/bin/Debug/netcoreapp1.1/aspnetcoreapp.deps.json
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/bin/Debug/netcoreapp1.1/aspnetcoreapp.runtimeconfig.json
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/bin/Debug/netcoreapp1.1/aspnetcoreapp.runtimeconfig.dev.json
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/bin/Debug/netcoreapp1.1/aspnetcoreapp.dll
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/bin/Debug/netcoreapp1.1/aspnetcoreapp.pdb
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/Debug/netcoreapp1.1/aspnetcoreapp.AssemblyInfo.cs
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/Debug/netcoreapp1.1/aspnetcoreapp.dll
+/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/Debug/netcoreapp1.1/aspnetcoreapp.pdb
