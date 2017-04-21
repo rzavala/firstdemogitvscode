@@ -1,0 +1,1526 @@
+Last login: Thu Apr 20 20:26:42 on console
+Rubens-MacBook-Pro:~ rubengpe.zavala$ cd -
+-bash: cd: OLDPWD not set
+Rubens-MacBook-Pro:~ rubengpe.zavala$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rubens-MacBook-Pro:~ rubengpe.zavala$ cd documents
+Rubens-MacBook-Pro:documents rubengpe.zavala$ cd vscode
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ cd aspnetcoreapp
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ code .
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd cd -
+-bash: cd: cd: No such file or directory
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd -
+/Users/rubengpe.zavala/documents/vscode
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ cd mvcmovie
+Rubens-MacBook-Pro:mvcmovie rubengpe.zavala$ node --version
+-bash: node: command not found
+Rubens-MacBook-Pro:mvcmovie rubengpe.zavala$ node --version
+v6.10.2
+Rubens-MacBook-Pro:mvcmovie rubengpe.zavala$ npm -v
+3.10.10
+Rubens-MacBook-Pro:mvcmovie rubengpe.zavala$ npm -version
+3.10.10
+Rubens-MacBook-Pro:mvcmovie rubengpe.zavala$ npm install yo -g
+npm WARN deprecated npmconf@2.1.2: this package has been reintegrated into npm and is now out of date with respect to npm
+/usr/local/bin/yo -> /usr/local/lib/node_modules/yo/lib/cli.js
+/usr/local/bin/yo-complete -> /usr/local/lib/node_modules/yo/lib/completion/index.js
+
+> spawn-sync@1.0.15 postinstall /usr/local/lib/node_modules/yo/node_modules/spawn-sync
+> node postinstall
+
+
+> yo@1.8.5 postinstall /usr/local/lib/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ Global configuration file is valid
+✔ NODE_PATH matches the npm root
+✔ Node.js version
+✔ No .bowerrc file in home directory
+✔ No .yo-rc.json file in home directory
+✔ npm version
+
+Everything looks all right!
+/usr/local/lib
+└─┬ yo@1.8.5 
+  ├── async@1.5.2 
+  ├─┬ chalk@1.1.3 
+  │ ├── ansi-styles@2.2.1 
+  │ ├── escape-string-regexp@1.0.5 
+  │ ├── has-ansi@2.0.0 
+  │ ├── strip-ansi@3.0.1 
+  │ └── supports-color@2.0.0 
+  ├── cli-list@0.1.8 
+  ├─┬ configstore@1.4.0 
+  │ ├── graceful-fs@4.1.11 
+  │ ├─┬ mkdirp@0.5.1 
+  │ │ └── minimist@0.0.8 
+  │ ├── object-assign@4.1.1 
+  │ ├── os-tmpdir@1.0.2 
+  │ ├── osenv@0.1.4 
+  │ ├── uuid@2.0.3 
+  │ ├─┬ write-file-atomic@1.3.1 
+  │ │ ├── imurmurhash@0.1.4 
+  │ │ └── slide@1.1.6 
+  │ └── xdg-basedir@2.0.0 
+  ├─┬ cross-spawn@3.0.1 
+  │ ├─┬ lru-cache@4.0.2 
+  │ │ ├── pseudomap@1.0.2 
+  │ │ └── yallist@2.1.2 
+  │ └─┬ which@1.2.14 
+  │   └── isexe@2.0.0 
+  ├── figures@1.7.0 
+  ├─┬ fullname@2.1.0 
+  │ ├─┬ npmconf@2.1.2 
+  │ │ ├─┬ config-chain@1.1.11 
+  │ │ │ └── proto-list@1.2.4 
+  │ │ ├── inherits@2.0.3 
+  │ │ ├── ini@1.3.4 
+  │ │ ├─┬ nopt@3.0.6 
+  │ │ │ └── abbrev@1.1.0 
+  │ │ ├─┬ once@1.3.3 
+  │ │ │ └── wrappy@1.0.2 
+  │ │ ├── semver@4.3.6 
+  │ │ └── uid-number@0.0.5 
+  │ ├── pify@2.3.0 
+  │ └─┬ pinkie-promise@2.0.1 
+  │   └── pinkie@2.0.4 
+  ├─┬ got@5.7.1 
+  │ ├─┬ create-error-class@3.0.2 
+  │ │ └── capture-stack-trace@1.0.0 
+  │ ├── duplexer2@0.1.4 
+  │ ├── is-redirect@1.0.0 
+  │ ├── is-retry-allowed@1.1.0 
+  │ ├── is-stream@1.1.0 
+  │ ├── lowercase-keys@1.0.0 
+  │ ├── node-status-codes@1.0.0 
+  │ ├─┬ parse-json@2.2.0 
+  │ │ └─┬ error-ex@1.3.1 
+  │ │   └── is-arrayish@0.2.1 
+  │ ├── read-all-stream@3.1.0 
+  │ ├─┬ readable-stream@2.2.9 
+  │ │ ├── buffer-shims@1.0.0 
+  │ │ ├── core-util-is@1.0.2 
+  │ │ ├── isarray@1.0.0 
+  │ │ ├── process-nextick-args@1.0.7 
+  │ │ ├── string_decoder@1.0.0 
+  │ │ └── util-deprecate@1.0.2 
+  │ ├── timed-out@3.1.3 
+  │ ├── unzip-response@1.0.2 
+  │ └─┬ url-parse-lax@1.0.0 
+  │   └── prepend-http@1.0.4 
+  ├─┬ humanize-string@1.0.1 
+  │ └── decamelize@1.2.0 
+  ├─┬ inquirer@0.11.4 
+  │ ├── ansi-escapes@1.4.0 
+  │ ├── ansi-regex@2.1.1 
+  │ ├─┬ cli-cursor@1.0.2 
+  │ │ └─┬ restore-cursor@1.0.1 
+  │ │   └── exit-hook@1.1.1 
+  │ ├── cli-width@1.1.1 
+  │ ├─┬ readline2@1.0.1 
+  │ │ ├── code-point-at@1.1.0 
+  │ │ ├── is-fullwidth-code-point@1.0.0 
+  │ │ └── mute-stream@0.0.5 
+  │ ├── run-async@0.1.0 
+  │ ├── rx-lite@3.1.2 
+  │ ├── string-width@1.0.2 
+  │ └── through@2.3.8 
+  ├─┬ insight@0.7.0 
+  │ ├── inquirer@0.10.1 
+  │ ├─┬ lodash.debounce@3.1.1 
+  │ │ └── lodash._getnative@3.9.1 
+  │ ├─┬ os-name@1.0.3 
+  │ │ ├─┬ osx-release@1.1.0 
+  │ │ │ └── minimist@1.2.0 
+  │ │ └─┬ win-release@1.1.1 
+  │ │   └── semver@5.3.0 
+  │ ├─┬ request@2.81.0 
+  │ │ ├── aws-sign2@0.6.0 
+  │ │ ├── aws4@1.6.0 
+  │ │ ├── caseless@0.12.0 
+  │ │ ├─┬ combined-stream@1.0.5 
+  │ │ │ └── delayed-stream@1.0.0 
+  │ │ ├── extend@3.0.0 
+  │ │ ├── forever-agent@0.6.1 
+  │ │ ├─┬ form-data@2.1.4 
+  │ │ │ └── asynckit@0.4.0 
+  │ │ ├─┬ har-validator@4.2.1 
+  │ │ │ ├─┬ ajv@4.11.7 
+  │ │ │ │ ├── co@4.6.0 
+  │ │ │ │ └─┬ json-stable-stringify@1.0.1 
+  │ │ │ │   └── jsonify@0.0.0 
+  │ │ │ └── har-schema@1.0.5 
+  │ │ ├─┬ hawk@3.1.3 
+  │ │ │ ├── boom@2.10.1 
+  │ │ │ ├── cryptiles@2.0.5 
+  │ │ │ ├── hoek@2.16.3 
+  │ │ │ └── sntp@1.0.9 
+  │ │ ├─┬ http-signature@1.1.1 
+  │ │ │ ├── assert-plus@0.2.0 
+  │ │ │ ├─┬ jsprim@1.4.0 
+  │ │ │ │ ├── assert-plus@1.0.0 
+  │ │ │ │ ├── extsprintf@1.0.2 
+  │ │ │ │ ├── json-schema@0.2.3 
+  │ │ │ │ └── verror@1.3.6 
+  │ │ │ └─┬ sshpk@1.13.0 
+  │ │ │   ├── asn1@0.2.3 
+  │ │ │   ├── assert-plus@1.0.0 
+  │ │ │   ├── bcrypt-pbkdf@1.0.1 
+  │ │ │   ├─┬ dashdash@1.14.1 
+  │ │ │   │ └── assert-plus@1.0.0 
+  │ │ │   ├── ecc-jsbn@0.1.1 
+  │ │ │   ├─┬ getpass@0.1.6 
+  │ │ │   │ └── assert-plus@1.0.0 
+  │ │ │   ├── jodid25519@1.0.2 
+  │ │ │   ├── jsbn@0.1.1 
+  │ │ │   └── tweetnacl@0.14.5 
+  │ │ ├── is-typedarray@1.0.0 
+  │ │ ├── isstream@0.1.2 
+  │ │ ├── json-stringify-safe@5.0.1 
+  │ │ ├─┬ mime-types@2.1.15 
+  │ │ │ └── mime-db@1.27.0 
+  │ │ ├── oauth-sign@0.8.2 
+  │ │ ├── performance-now@0.2.0 
+  │ │ ├── qs@6.4.0 
+  │ │ ├── safe-buffer@5.0.1 
+  │ │ ├── stringstream@0.0.5 
+  │ │ ├── tunnel-agent@0.6.0 
+  │ │ └── uuid@3.0.1 
+  │ └─┬ tough-cookie@2.3.2 
+  │   └── punycode@1.4.1 
+  ├── lodash@3.10.1 
+  ├─┬ meow@3.7.0 
+  │ ├─┬ camelcase-keys@2.1.0 
+  │ │ └── camelcase@2.1.1 
+  │ ├─┬ loud-rejection@1.6.0 
+  │ │ ├─┬ currently-unhandled@0.4.1 
+  │ │ │ └── array-find-index@1.0.2 
+  │ │ └── signal-exit@3.0.2 
+  │ ├── map-obj@1.0.1 
+  │ ├── minimist@1.2.0 
+  │ ├─┬ normalize-package-data@2.3.8 
+  │ │ ├── hosted-git-info@2.4.2 
+  │ │ ├─┬ is-builtin-module@1.0.0 
+  │ │ │ └── builtin-modules@1.1.1 
+  │ │ └─┬ validate-npm-package-license@3.0.1 
+  │ │   ├─┬ spdx-correct@1.0.2 
+  │ │   │ └── spdx-license-ids@1.2.2 
+  │ │   └── spdx-expression-parse@1.0.4 
+  │ ├─┬ redent@1.0.0 
+  │ │ ├── indent-string@2.1.0 
+  │ │ └── strip-indent@1.0.1 
+  │ └── trim-newlines@1.0.0 
+  ├─┬ npm-keyword@4.2.0 
+  │ └─┬ registry-url@3.1.0 
+  │   └─┬ rc@1.2.1 
+  │     ├── deep-extend@0.4.1 
+  │     ├── minimist@1.2.0 
+  │     └── strip-json-comments@2.0.1 
+  ├── opn@3.0.3 
+  ├─┬ package-json@2.4.0 
+  │ ├── registry-auth-token@3.2.0 
+  │ └── semver@5.3.0 
+  ├─┬ parse-help@0.1.1 
+  │ └─┬ execall@1.0.0 
+  │   └─┬ clone-regexp@1.0.0 
+  │     ├── is-regexp@1.0.0 
+  │     └── is-supported-regexp-flag@1.0.0 
+  ├─┬ read-pkg-up@1.0.1 
+  │ ├─┬ find-up@1.1.2 
+  │ │ └── path-exists@2.1.0 
+  │ └─┬ read-pkg@1.1.0 
+  │   ├─┬ load-json-file@1.1.0 
+  │   │ └─┬ strip-bom@2.0.0 
+  │   │   └── is-utf8@0.2.1 
+  │   └── path-type@1.1.0 
+  ├─┬ repeating@2.0.1 
+  │ └─┬ is-finite@1.0.2 
+  │   └── number-is-nan@1.0.1 
+  ├─┬ root-check@1.0.0 
+  │ ├─┬ downgrade-root@1.2.2 
+  │ │ ├── default-uid@1.0.0 
+  │ │ └── is-root@1.0.0 
+  │ └─┬ sudo-block@1.2.0 
+  │   └── is-docker@1.1.0 
+  ├─┬ sort-on@1.3.0 
+  │ ├── arrify@1.0.1 
+  │ └─┬ dot-prop@2.4.0 
+  │   └── is-obj@1.0.1 
+  ├── string-length@1.0.1 
+  ├─┬ tabtab@1.3.2 
+  │ ├─┬ debug@2.6.4 
+  │ │ └── ms@0.7.3 
+  │ ├─┬ inquirer@1.2.3 
+  │ │ ├── cli-width@2.1.0 
+  │ │ ├─┬ external-editor@1.1.1 
+  │ │ │ ├─┬ spawn-sync@1.0.15 
+  │ │ │ │ ├─┬ concat-stream@1.6.0 
+  │ │ │ │ │ └── typedarray@0.0.6 
+  │ │ │ │ └── os-shim@0.1.3 
+  │ │ │ └── tmp@0.0.29 
+  │ │ ├── lodash@4.17.4 
+  │ │ ├── mute-stream@0.0.6 
+  │ │ ├─┬ run-async@2.3.0 
+  │ │ │ └── is-promise@2.1.0 
+  │ │ └── rx@4.1.0 
+  │ ├── minimist@1.2.0 
+  │ └─┬ npmlog@2.0.4 
+  │   ├── ansi@0.3.1 
+  │   ├─┬ are-we-there-yet@1.1.2 
+  │   │ └── delegates@1.0.0 
+  │   └─┬ gauge@1.2.7 
+  │     ├── has-unicode@2.0.1 
+  │     ├── lodash.pad@4.5.1 
+  │     ├── lodash.padend@4.6.1 
+  │     └── lodash.padstart@4.6.1 
+  ├── titleize@1.0.0 
+  ├─┬ update-notifier@0.6.3 
+  │ ├─┬ boxen@0.3.1 
+  │ │ ├── filled-array@1.1.0 
+  │ │ └── widest-line@1.0.0 
+  │ ├─┬ configstore@2.1.0 
+  │ │ └── dot-prop@3.0.0 
+  │ ├── is-npm@1.0.0 
+  │ ├── latest-version@2.0.0 
+  │ └─┬ semver-diff@2.1.0 
+  │   └── semver@5.3.0 
+  ├─┬ user-home@2.0.0 
+  │ └── os-homedir@1.0.2 
+  ├─┬ yeoman-character@1.1.0 
+  │ └─┬ supports-color@3.2.3 
+  │   └── has-flag@1.0.0 
+  ├─┬ yeoman-doctor@2.1.0 
+  │ ├─┬ bin-version-check@2.1.0 
+  │ │ ├─┬ bin-version@1.0.4 
+  │ │ │ └─┬ find-versions@1.2.1 
+  │ │ │   └── semver-regex@1.0.0 
+  │ │ ├── minimist@1.2.0 
+  │ │ └─┬ semver-truncate@1.1.2 
+  │ │   └── semver@5.3.0 
+  │ ├─┬ each-async@1.1.1 
+  │ │ ├── onetime@1.1.0 
+  │ │ └── set-immediate-shim@1.0.1 
+  │ ├── log-symbols@1.0.2 
+  │ ├── object-values@1.0.0 
+  │ ├── semver@5.3.0 
+  │ └─┬ twig@0.8.9 
+  │   ├─┬ minimatch@3.0.3 
+  │   │ └─┬ brace-expansion@1.1.7 
+  │   │   ├── balanced-match@0.4.2 
+  │   │   └── concat-map@0.0.1 
+  │   └─┬ walk@2.3.9 
+  │     └── foreachasync@3.0.0 
+  ├─┬ yeoman-environment@1.6.6 
+  │ ├── diff@2.2.3 
+  │ ├─┬ globby@4.1.0 
+  │ │ ├─┬ array-union@1.0.2 
+  │ │ │ └── array-uniq@1.0.3 
+  │ │ └─┬ glob@6.0.4 
+  │ │   ├── inflight@1.0.6 
+  │ │   └── path-is-absolute@1.0.1 
+  │ ├─┬ grouped-queue@0.3.3 
+  │ │ └── lodash@4.17.4 
+  │ ├─┬ inquirer@1.2.3 
+  │ │ ├── cli-width@2.1.0 
+  │ │ ├── mute-stream@0.0.6 
+  │ │ └── run-async@2.3.0 
+  │ ├── lodash@4.17.4 
+  │ ├─┬ mem-fs@1.1.3 
+  │ │ ├─┬ through2@2.0.3 
+  │ │ │ └── xtend@4.0.1 
+  │ │ ├─┬ vinyl@1.2.0 
+  │ │ │ ├── clone@1.0.2 
+  │ │ │ ├── clone-stats@0.0.1 
+  │ │ │ └── replace-ext@0.0.1 
+  │ │ └─┬ vinyl-file@2.0.0 
+  │ │   └─┬ strip-bom-stream@2.0.0 
+  │ │     └── first-chunk-stream@2.0.0 
+  │ ├── text-table@0.2.0 
+  │ └── untildify@2.1.0 
+  └─┬ yosay@1.2.1 
+    ├── cli-boxes@1.0.0 
+    ├── pad-component@0.0.1 
+    ├─┬ taketalk@1.0.0 
+    │ ├── get-stdin@4.0.1 
+    │ └── minimist@1.2.0 
+    └── wrap-ansi@2.1.0 
+
+Rubens-MacBook-Pro:mvcmovie rubengpe.zavala$ cd -
+? ==========================================================================
+We're constantly looking for ways to make yo better! 
+May we anonymously report usage statistics to improve the tool over time? 
+More info: https://github.com/yeoman/insight & http://yeoman.io
+========================================================================== Yes
+? 'Allo Rubén! What would you like to do? Get me out of here!
+
+     _-----_     ╭───────────────────────╮
+    |       |    │      Bye from us!     │
+    |--(o)--|    │       Chat soon.      │
+   `---------´   │      Yeoman team      │
+    ( _´U`_ )    │    http://yeoman.io   │
+    /___A___\   /╰───────────────────────╯
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ npm install generator-aspnet
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+> spawn-sync@1.0.15 postinstall /Users/rubengpe.zavala/Documents/vscode/node_modules/spawn-sync
+> node postinstall
+
+/Users/rubengpe.zavala/Documents/vscode
+└─┬ generator-aspnet@0.3.3 
+  ├─┬ chai@3.5.0 
+  │ ├── assertion-error@1.0.2 
+  │ ├─┬ deep-eql@0.1.3 
+  │ │ └── type-detect@0.1.1 
+  │ └── type-detect@1.0.0 
+  ├─┬ chalk@1.1.3 
+  │ ├── ansi-styles@2.2.1 
+  │ ├── escape-string-regexp@1.0.5 
+  │ ├── has-ansi@2.0.0 
+  │ ├── strip-ansi@3.0.1 
+  │ └── supports-color@2.0.0 
+  ├─┬ findup-sync@0.3.0 
+  │ └─┬ glob@5.0.15 
+  │   ├─┬ inflight@1.0.6 
+  │   │ └── wrappy@1.0.2 
+  │   ├── inherits@2.0.3 
+  │   ├─┬ minimatch@3.0.3 
+  │   │ └─┬ brace-expansion@1.1.7 
+  │   │   ├── balanced-match@0.4.2 
+  │   │   └── concat-map@0.0.1 
+  │   ├── once@1.4.0 
+  │   └── path-is-absolute@1.0.1 
+  ├─┬ mkdirp@0.5.1 
+  │ └── minimist@0.0.8 
+  ├─┬ nconf@0.8.4 
+  │ ├── async@1.5.2 
+  │ ├── ini@1.3.4 
+  │ ├── secure-keys@1.0.0 
+  │ └─┬ yargs@3.32.0 
+  │   ├── camelcase@2.1.1 
+  │   ├── cliui@3.2.0 
+  │   ├── decamelize@1.2.0 
+  │   ├─┬ os-locale@1.4.0 
+  │   │ └─┬ lcid@1.0.0 
+  │   │   └── invert-kv@1.0.0 
+  │   ├── window-size@0.1.4 
+  │   └── y18n@3.2.1 
+  ├── uuid@2.0.3 
+  ├── vs_projectname@1.0.2 
+  ├─┬ yeoman-generator@0.19.2 
+  │ ├── async@0.9.2 
+  │ ├─┬ class-extend@0.1.2 
+  │ │ └── object-assign@2.1.1 
+  │ ├─┬ cli-table@0.3.1 
+  │ │ └── colors@1.0.3 
+  │ ├─┬ cross-spawn@0.2.9 
+  │ │ └── lru-cache@2.7.3 
+  │ ├─┬ dargs@4.1.0 
+  │ │ └── number-is-nan@1.0.1 
+  │ ├─┬ dateformat@1.0.12 
+  │ │ ├── get-stdin@4.0.1 
+  │ │ └─┬ meow@3.7.0 
+  │ │   ├── camelcase-keys@2.1.0 
+  │ │   ├─┬ loud-rejection@1.6.0 
+  │ │   │ ├─┬ currently-unhandled@0.4.1 
+  │ │   │ │ └── array-find-index@1.0.2 
+  │ │   │ └── signal-exit@3.0.2 
+  │ │   ├── map-obj@1.0.1 
+  │ │   ├── minimist@1.2.0 
+  │ │   ├─┬ normalize-package-data@2.3.8 
+  │ │   │ ├── hosted-git-info@2.4.2 
+  │ │   │ ├─┬ is-builtin-module@1.0.0 
+  │ │   │ │ └── builtin-modules@1.1.1 
+  │ │   │ ├── semver@5.3.0 
+  │ │   │ └─┬ validate-npm-package-license@3.0.1 
+  │ │   │   ├─┬ spdx-correct@1.0.2 
+  │ │   │   │ └── spdx-license-ids@1.2.2 
+  │ │   │   └── spdx-expression-parse@1.0.4 
+  │ │   ├── object-assign@4.1.1 
+  │ │   ├─┬ read-pkg-up@1.0.1 
+  │ │   │ ├─┬ find-up@1.1.2 
+  │ │   │ │ └── path-exists@2.1.0 
+  │ │   │ └─┬ read-pkg@1.1.0 
+  │ │   │   ├── load-json-file@1.1.0 
+  │ │   │   └── path-type@1.1.0 
+  │ │   ├─┬ redent@1.0.0 
+  │ │   │ ├── indent-string@2.1.0 
+  │ │   │ └── strip-indent@1.0.1 
+  │ │   └── trim-newlines@1.0.0 
+  │ ├─┬ debug@2.6.4 
+  │ │ └── ms@0.7.3 
+  │ ├── detect-conflict@1.0.1 
+  │ ├── diff@1.4.0 
+  │ ├─┬ download@4.4.3 
+  │ │ ├─┬ caw@1.2.0 
+  │ │ │ ├─┬ get-proxy@1.1.0 
+  │ │ │ │ └─┬ rc@1.2.1 
+  │ │ │ │   ├── deep-extend@0.4.1 
+  │ │ │ │   ├── minimist@1.2.0 
+  │ │ │ │   └── strip-json-comments@2.0.1 
+  │ │ │ ├── is-obj@1.0.1 
+  │ │ │ ├── object-assign@3.0.0 
+  │ │ │ └── tunnel-agent@0.4.3 
+  │ │ ├─┬ concat-stream@1.6.0 
+  │ │ │ └── typedarray@0.0.6 
+  │ │ ├─┬ each-async@1.1.1 
+  │ │ │ ├── onetime@1.1.0 
+  │ │ │ └── set-immediate-shim@1.0.1 
+  │ │ ├─┬ filenamify@1.2.1 
+  │ │ │ ├── filename-reserved-regex@1.0.0 
+  │ │ │ ├── strip-outer@1.0.0 
+  │ │ │ └── trim-repeated@1.0.0 
+  │ │ ├─┬ got@5.7.1 
+  │ │ │ ├─┬ create-error-class@3.0.2 
+  │ │ │ │ └── capture-stack-trace@1.0.0 
+  │ │ │ ├── duplexer2@0.1.4 
+  │ │ │ ├── is-redirect@1.0.0 
+  │ │ │ ├── is-retry-allowed@1.1.0 
+  │ │ │ ├── is-stream@1.1.0 
+  │ │ │ ├── lowercase-keys@1.0.0 
+  │ │ │ ├── node-status-codes@1.0.0 
+  │ │ │ ├── object-assign@4.1.1 
+  │ │ │ ├─┬ parse-json@2.2.0 
+  │ │ │ │ └─┬ error-ex@1.3.1 
+  │ │ │ │   └── is-arrayish@0.2.1 
+  │ │ │ ├─┬ pinkie-promise@2.0.1 
+  │ │ │ │ └── pinkie@2.0.4 
+  │ │ │ ├── timed-out@3.1.3 
+  │ │ │ ├── unzip-response@1.0.2 
+  │ │ │ └── url-parse-lax@1.0.0 
+  │ │ ├─┬ gulp-decompress@1.2.0 
+  │ │ │ ├─┬ archive-type@3.2.0 
+  │ │ │ │ └── file-type@3.9.0 
+  │ │ │ ├─┬ decompress@3.0.0 
+  │ │ │ │ ├── buffer-to-vinyl@1.1.0 
+  │ │ │ │ ├─┬ decompress-tar@3.1.0 
+  │ │ │ │ │ ├── is-tar@1.0.0 
+  │ │ │ │ │ ├─┬ strip-dirs@1.1.1 
+  │ │ │ │ │ │ ├─┬ is-absolute@0.1.7 
+  │ │ │ │ │ │ │ └── is-relative@0.1.3 
+  │ │ │ │ │ │ ├── is-natural-number@2.1.1 
+  │ │ │ │ │ │ ├── minimist@1.2.0 
+  │ │ │ │ │ │ └── sum-up@1.0.3 
+  │ │ │ │ │ ├─┬ tar-stream@1.5.2 
+  │ │ │ │ │ │ ├── bl@1.2.0 
+  │ │ │ │ │ │ └── end-of-stream@1.4.0 
+  │ │ │ │ │ └─┬ vinyl@0.4.6 
+  │ │ │ │ │   └── clone@0.2.0 
+  │ │ │ │ ├─┬ decompress-tarbz2@3.1.0 
+  │ │ │ │ │ ├── is-bzip2@1.0.0 
+  │ │ │ │ │ ├─┬ seek-bzip@1.0.5 
+  │ │ │ │ │ │ └─┬ commander@2.8.1 
+  │ │ │ │ │ │   └── graceful-readlink@1.0.1 
+  │ │ │ │ │ └─┬ vinyl@0.4.6 
+  │ │ │ │ │   └── clone@0.2.0 
+  │ │ │ │ ├─┬ decompress-targz@3.1.0 
+  │ │ │ │ │ ├── is-gzip@1.0.0 
+  │ │ │ │ │ └─┬ vinyl@0.4.6 
+  │ │ │ │ │   └── clone@0.2.0 
+  │ │ │ │ ├─┬ decompress-unzip@3.4.0 
+  │ │ │ │ │ ├── is-zip@1.0.0 
+  │ │ │ │ │ ├── stat-mode@0.2.2 
+  │ │ │ │ │ ├── through2@2.0.3 
+  │ │ │ │ │ └─┬ yauzl@2.7.0 
+  │ │ │ │ │   ├── buffer-crc32@0.2.13 
+  │ │ │ │ │   └─┬ fd-slicer@1.0.1 
+  │ │ │ │ │     └── pend@1.2.0 
+  │ │ │ │ └─┬ vinyl-assign@1.2.1 
+  │ │ │ │   └── object-assign@4.1.1 
+  │ │ │ └─┬ gulp-util@3.0.8 
+  │ │ │   ├── array-differ@1.0.0 
+  │ │ │   ├── array-uniq@1.0.3 
+  │ │ │   ├── beeper@1.1.1 
+  │ │ │   ├── dateformat@2.0.0 
+  │ │ │   ├─┬ fancy-log@1.3.0 
+  │ │ │   │ └── time-stamp@1.0.1 
+  │ │ │   ├─┬ gulplog@1.0.0 
+  │ │ │   │ └── glogg@1.0.0 
+  │ │ │   ├─┬ has-gulplog@0.1.0 
+  │ │ │   │ └── sparkles@1.0.0 
+  │ │ │   ├── lodash._reescape@3.0.0 
+  │ │ │   ├── lodash._reevaluate@3.0.0 
+  │ │ │   ├── lodash._reinterpolate@3.0.0 
+  │ │ │   ├─┬ lodash.template@3.6.2 
+  │ │ │   │ ├── lodash._basecopy@3.0.1 
+  │ │ │   │ ├── lodash._basetostring@3.0.1 
+  │ │ │   │ ├── lodash._basevalues@3.0.0 
+  │ │ │   │ ├── lodash._isiterateecall@3.0.9 
+  │ │ │   │ ├─┬ lodash.escape@3.2.0 
+  │ │ │   │ │ └── lodash._root@3.0.1 
+  │ │ │   │ ├─┬ lodash.keys@3.1.2 
+  │ │ │   │ │ ├── lodash._getnative@3.9.1 
+  │ │ │   │ │ ├── lodash.isarguments@3.1.0 
+  │ │ │   │ │ └── lodash.isarray@3.0.4 
+  │ │ │   │ ├── lodash.restparam@3.6.1 
+  │ │ │   │ └── lodash.templatesettings@3.1.1 
+  │ │ │   ├── minimist@1.2.0 
+  │ │ │   ├─┬ multipipe@0.1.2 
+  │ │ │   │ └─┬ duplexer2@0.0.2 
+  │ │ │   │   └─┬ readable-stream@1.1.14 
+  │ │ │   │     ├── isarray@0.0.1 
+  │ │ │   │     └── string_decoder@0.10.31 
+  │ │ │   ├── object-assign@3.0.0 
+  │ │ │   ├── through2@2.0.3 
+  │ │ │   └── vinyl@0.5.3 
+  │ │ ├── gulp-rename@1.2.2 
+  │ │ ├── is-url@1.2.2 
+  │ │ ├── object-assign@4.1.1 
+  │ │ ├── read-all-stream@3.1.0 
+  │ │ ├─┬ readable-stream@2.2.9 
+  │ │ │ ├── buffer-shims@1.0.0 
+  │ │ │ ├── core-util-is@1.0.2 
+  │ │ │ ├── isarray@1.0.0 
+  │ │ │ ├── process-nextick-args@1.0.7 
+  │ │ │ └── string_decoder@1.0.0 
+  │ │ ├── stream-combiner2@1.1.1 
+  │ │ ├─┬ vinyl@1.2.0 
+  │ │ │ ├── clone@1.0.2 
+  │ │ │ ├── clone-stats@0.0.1 
+  │ │ │ └── replace-ext@0.0.1 
+  │ │ ├─┬ vinyl-fs@2.4.4 
+  │ │ │ ├─┬ duplexify@3.5.0 
+  │ │ │ │ ├─┬ end-of-stream@1.0.0 
+  │ │ │ │ │ └── once@1.3.3 
+  │ │ │ │ └── stream-shift@1.0.0 
+  │ │ │ ├─┬ glob-stream@5.3.5 
+  │ │ │ │ ├── extend@3.0.0 
+  │ │ │ │ ├─┬ glob-parent@3.1.0 
+  │ │ │ │ │ ├─┬ is-glob@3.1.0 
+  │ │ │ │ │ │ └── is-extglob@2.1.1 
+  │ │ │ │ │ └── path-dirname@1.0.2 
+  │ │ │ │ ├─┬ micromatch@2.3.11 
+  │ │ │ │ │ ├─┬ arr-diff@2.0.0 
+  │ │ │ │ │ │ └── arr-flatten@1.0.3 
+  │ │ │ │ │ ├── array-unique@0.2.1 
+  │ │ │ │ │ ├─┬ braces@1.8.5 
+  │ │ │ │ │ │ ├─┬ expand-range@1.8.2 
+  │ │ │ │ │ │ │ └─┬ fill-range@2.2.3 
+  │ │ │ │ │ │ │   ├── is-number@2.1.0 
+  │ │ │ │ │ │ │   ├── isobject@2.1.0 
+  │ │ │ │ │ │ │   ├── randomatic@1.1.6 
+  │ │ │ │ │ │ │   └── repeat-string@1.6.1 
+  │ │ │ │ │ │ ├── preserve@0.2.0 
+  │ │ │ │ │ │ └── repeat-element@1.1.2 
+  │ │ │ │ │ ├─┬ expand-brackets@0.1.5 
+  │ │ │ │ │ │ └── is-posix-bracket@0.1.1 
+  │ │ │ │ │ ├─┬ extglob@0.3.2 
+  │ │ │ │ │ │ └── is-extglob@1.0.0 
+  │ │ │ │ │ ├── filename-regex@2.0.0 
+  │ │ │ │ │ ├── is-extglob@1.0.0 
+  │ │ │ │ │ ├── is-glob@2.0.1 
+  │ │ │ │ │ ├─┬ kind-of@3.1.0 
+  │ │ │ │ │ │ └── is-buffer@1.1.5 
+  │ │ │ │ │ ├─┬ normalize-path@2.1.1 
+  │ │ │ │ │ │ └── remove-trailing-separator@1.0.1 
+  │ │ │ │ │ ├─┬ object.omit@2.0.1 
+  │ │ │ │ │ │ ├─┬ for-own@0.1.5 
+  │ │ │ │ │ │ │ └── for-in@1.0.2 
+  │ │ │ │ │ │ └── is-extendable@0.1.1 
+  │ │ │ │ │ ├─┬ parse-glob@3.0.4 
+  │ │ │ │ │ │ ├─┬ glob-base@0.3.0 
+  │ │ │ │ │ │ │ ├── glob-parent@2.0.0 
+  │ │ │ │ │ │ │ └─┬ is-glob@2.0.1 
+  │ │ │ │ │ │ │   └── is-extglob@1.0.0 
+  │ │ │ │ │ │ ├── is-dotfile@1.0.2 
+  │ │ │ │ │ │ ├── is-extglob@1.0.0 
+  │ │ │ │ │ │ └── is-glob@2.0.1 
+  │ │ │ │ │ └─┬ regex-cache@0.4.3 
+  │ │ │ │ │   ├── is-equal-shallow@0.1.3 
+  │ │ │ │ │   └── is-primitive@2.0.0 
+  │ │ │ │ ├── ordered-read-streams@0.3.0 
+  │ │ │ │ ├─┬ to-absolute-glob@0.1.1 
+  │ │ │ │ │ └── extend-shallow@2.0.1 
+  │ │ │ │ └─┬ unique-stream@2.2.1 
+  │ │ │ │   └─┬ json-stable-stringify@1.0.1 
+  │ │ │ │     └── jsonify@0.0.0 
+  │ │ │ ├── graceful-fs@4.1.11 
+  │ │ │ ├─┬ gulp-sourcemaps@1.6.0 
+  │ │ │ │ ├── convert-source-map@1.5.0 
+  │ │ │ │ └── through2@2.0.3 
+  │ │ │ ├── is-valid-glob@0.3.0 
+  │ │ │ ├── lazystream@1.0.0 
+  │ │ │ ├── lodash.isequal@4.5.0 
+  │ │ │ ├── merge-stream@1.0.1 
+  │ │ │ ├── object-assign@4.1.1 
+  │ │ │ ├─┬ strip-bom@2.0.0 
+  │ │ │ │ └── is-utf8@0.2.1 
+  │ │ │ ├─┬ strip-bom-stream@1.0.0 
+  │ │ │ │ └── first-chunk-stream@1.0.0 
+  │ │ │ ├── through2@2.0.3 
+  │ │ │ ├─┬ through2-filter@2.0.0 
+  │ │ │ │ └── through2@2.0.3 
+  │ │ │ └── vali-date@1.0.0 
+  │ │ └─┬ ware@1.3.0 
+  │ │   └─┬ wrap-fn@0.1.5 
+  │ │     └── co@3.1.0 
+  │ ├─┬ findup-sync@0.2.1 
+  │ │ └─┬ glob@4.3.5 
+  │ │   └── minimatch@2.0.10 
+  │ ├─┬ github-username@1.1.1 
+  │ │ ├── get-stdin@1.0.0 
+  │ │ └─┬ got@2.9.2 
+  │ │   ├── infinity-agent@2.0.3 
+  │ │   ├── nested-error-stacks@1.0.2 
+  │ │   ├── prepend-http@1.0.4 
+  │ │   ├── read-all-stream@2.2.0 
+  │ │   ├── statuses@1.3.1 
+  │ │   └── timed-out@2.0.0 
+  │ ├─┬ gruntfile-editor@1.2.1 
+  │ │ ├─┬ ast-query@2.0.0 
+  │ │ │ ├─┬ acorn-jsx@3.0.1 
+  │ │ │ │ └── acorn@3.3.0 
+  │ │ │ ├─┬ escodegen-wallaby@1.6.11 
+  │ │ │ │ ├── esprima@2.7.3 
+  │ │ │ │ ├── estraverse@1.9.3 
+  │ │ │ │ ├── esutils@2.0.2 
+  │ │ │ │ ├─┬ optionator@0.8.2 
+  │ │ │ │ │ ├── deep-is@0.1.3 
+  │ │ │ │ │ ├── fast-levenshtein@2.0.6 
+  │ │ │ │ │ ├── levn@0.3.0 
+  │ │ │ │ │ ├── prelude-ls@1.1.2 
+  │ │ │ │ │ ├── type-check@0.3.2 
+  │ │ │ │ │ └── wordwrap@1.0.0 
+  │ │ │ │ └─┬ source-map@0.2.0 
+  │ │ │ │   └── amdefine@1.0.1 
+  │ │ │ ├── lodash@4.17.4 
+  │ │ │ └── traverse@0.6.6 
+  │ │ └── lodash@4.17.4 
+  │ ├─┬ html-wiring@1.2.0 
+  │ │ ├─┬ cheerio@0.19.0 
+  │ │ │ ├─┬ css-select@1.0.0 
+  │ │ │ │ ├── boolbase@1.0.0 
+  │ │ │ │ ├── css-what@1.0.0 
+  │ │ │ │ ├── domutils@1.4.3 
+  │ │ │ │ └── nth-check@1.0.1 
+  │ │ │ ├─┬ dom-serializer@0.1.0 
+  │ │ │ │ └── domelementtype@1.1.3 
+  │ │ │ ├── entities@1.1.1 
+  │ │ │ └─┬ htmlparser2@3.8.3 
+  │ │ │   ├── domelementtype@1.3.0 
+  │ │ │   ├── domhandler@2.3.0 
+  │ │ │   ├── domutils@1.5.1 
+  │ │ │   ├── entities@1.0.0 
+  │ │ │   └─┬ readable-stream@1.1.14 
+  │ │ │     ├── isarray@0.0.1 
+  │ │ │     └── string_decoder@0.10.31 
+  │ │ └─┬ detect-newline@1.0.3 
+  │ │   └── minimist@1.2.0 
+  │ ├─┬ inquirer@0.8.5 
+  │ │ ├── ansi-regex@1.1.1 
+  │ │ ├── cli-width@1.1.1 
+  │ │ ├─┬ figures@1.7.0 
+  │ │ │ └── object-assign@4.1.1 
+  │ │ ├─┬ readline2@0.1.1 
+  │ │ │ ├── mute-stream@0.0.4 
+  │ │ │ └─┬ strip-ansi@2.0.1 
+  │ │ │   └── ansi-regex@1.1.1 
+  │ │ ├── rx@2.5.3 
+  │ │ └── through@2.3.8 
+  │ ├─┬ istextorbinary@1.0.2 
+  │ │ ├── binaryextensions@1.0.1 
+  │ │ └── textextensions@1.0.2 
+  │ ├── lodash@3.10.1 
+  │ ├─┬ mem-fs-editor@1.2.3 
+  │ │ └─┬ vinyl@0.4.6 
+  │ │   └── clone@0.2.0 
+  │ ├── mime@1.3.4 
+  │ ├─┬ nopt@3.0.6 
+  │ │ └── abbrev@1.1.0 
+  │ ├── pretty-bytes@1.0.4 
+  │ ├── read-chunk@1.0.1 
+  │ ├─┬ rimraf@2.6.1 
+  │ │ └─┬ glob@7.1.1 
+  │ │   └── fs.realpath@1.0.0 
+  │ ├── run-async@0.1.0 
+  │ ├── shelljs@0.4.0 
+  │ ├─┬ sinon@1.17.7 
+  │ │ ├── formatio@1.1.1 
+  │ │ ├── lolex@1.3.2 
+  │ │ ├── samsam@1.1.2 
+  │ │ └─┬ util@0.10.3 
+  │ │   └── inherits@2.0.1 
+  │ ├── text-table@0.2.0 
+  │ ├─┬ through2@0.6.5 
+  │ │ ├─┬ readable-stream@1.0.34 
+  │ │ │ ├── isarray@0.0.1 
+  │ │ │ └── string_decoder@0.10.31 
+  │ │ └── xtend@4.0.1 
+  │ ├─┬ underscore.string@3.3.4 
+  │ │ ├── sprintf-js@1.0.3 
+  │ │ └── util-deprecate@1.0.2 
+  │ ├── user-home@1.1.1 
+  │ ├── xdg-basedir@1.0.1 
+  │ ├─┬ yeoman-assert@1.0.0 
+  │ │ ├─┬ chalk@0.5.1 
+  │ │ │ ├── ansi-styles@1.1.0 
+  │ │ │ ├─┬ has-ansi@0.1.0 
+  │ │ │ │ └── ansi-regex@0.2.1 
+  │ │ │ ├── strip-ansi@0.3.0 
+  │ │ │ └── supports-color@0.2.0 
+  │ │ └── lodash@2.4.2 
+  │ ├─┬ yeoman-environment@1.6.6 
+  │ │ ├── diff@2.2.3 
+  │ │ ├─┬ globby@4.1.0 
+  │ │ │ ├── array-union@1.0.2 
+  │ │ │ ├── arrify@1.0.1 
+  │ │ │ ├── glob@6.0.4 
+  │ │ │ ├── object-assign@4.1.1 
+  │ │ │ └── pify@2.3.0 
+  │ │ ├─┬ grouped-queue@0.3.3 
+  │ │ │ └── lodash@4.17.4 
+  │ │ ├─┬ inquirer@1.2.3 
+  │ │ │ ├── ansi-escapes@1.4.0 
+  │ │ │ ├─┬ cli-cursor@1.0.2 
+  │ │ │ │ └─┬ restore-cursor@1.0.1 
+  │ │ │ │   └── exit-hook@1.1.1 
+  │ │ │ ├── cli-width@2.1.0 
+  │ │ │ ├─┬ external-editor@1.1.1 
+  │ │ │ │ ├─┬ spawn-sync@1.0.15 
+  │ │ │ │ │ └── os-shim@0.1.3 
+  │ │ │ │ └─┬ tmp@0.0.29 
+  │ │ │ │   └── os-tmpdir@1.0.2 
+  │ │ │ ├── mute-stream@0.0.6 
+  │ │ │ ├─┬ run-async@2.3.0 
+  │ │ │ │ └── is-promise@2.1.0 
+  │ │ │ └── rx@4.1.0 
+  │ │ ├── lodash@4.17.4 
+  │ │ ├── log-symbols@1.0.2 
+  │ │ ├─┬ mem-fs@1.1.3 
+  │ │ │ ├── through2@2.0.3 
+  │ │ │ └─┬ vinyl-file@2.0.0 
+  │ │ │   └─┬ strip-bom-stream@2.0.0 
+  │ │ │     └── first-chunk-stream@2.0.0 
+  │ │ └─┬ untildify@2.1.0 
+  │ │   └── os-homedir@1.0.2 
+  │ └── yeoman-welcome@1.0.1 
+  └─┬ yosay@1.2.1 
+    ├── ansi-regex@2.1.1 
+    ├── cli-boxes@1.0.0 
+    ├── pad-component@0.0.1 
+    ├─┬ repeating@2.0.1 
+    │ └── is-finite@1.0.2 
+    ├─┬ string-width@1.0.2 
+    │ ├── code-point-at@1.1.0 
+    │ └── is-fullwidth-code-point@1.0.0 
+    ├─┬ taketalk@1.0.0 
+    │ └── minimist@1.2.0 
+    └── wrap-ansi@2.1.0 
+
+npm WARN enoent ENOENT: no such file or directory, open '/Users/rubengpe.zavala/Documents/vscode/package.json'
+npm WARN vscode No description
+npm WARN vscode No repository field.
+npm WARN vscode No README data
+npm WARN vscode No license field.
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ yo aspnet
+
+     _-----_     ╭──────────────────────────╮
+    |       |    │      Welcome to the      │
+    |--(o)--|    │  marvellous ASP.NET Core │
+   `---------´   │        generator!        │
+    ( _´U`_ )    ╰──────────────────────────╯
+    /___A___\   /
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+? What type of application do you want to create? Web Application
+? Which UI framework would you like to use? Bootstrap (3.3.7)
+? What's the name of your ASP.NET application? FunWithYo
+   create FunWithYo/.bowerrc
+   create FunWithYo/.gitignore
+   create FunWithYo/appsettings.json
+   create FunWithYo/appsettings.Development.json
+   create FunWithYo/bower.json
+   create FunWithYo/bundleconfig.json
+   create FunWithYo/FunWithYo.db
+   create FunWithYo/FunWithYo.csproj
+   create FunWithYo/Program.cs
+   create FunWithYo/README.md
+   create FunWithYo/Startup.cs
+   create FunWithYo/Controllers/AccountController.cs
+   create FunWithYo/Controllers/HomeController.cs
+   create FunWithYo/Controllers/ManageController.cs
+   create FunWithYo/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs
+   create FunWithYo/Data/Migrations/00000000000000_CreateIdentitySchema.cs
+   create FunWithYo/Data/Migrations/ApplicationDbContextModelSnapshot.cs
+   create FunWithYo/Data/ApplicationDbContext.cs
+   create FunWithYo/Models/ApplicationUser.cs
+   create FunWithYo/Models/AccountViewModels/ExternalLoginConfirmationViewModel.cs
+   create FunWithYo/Models/AccountViewModels/ForgotPasswordViewModel.cs
+   create FunWithYo/Models/AccountViewModels/LoginViewModel.cs
+   create FunWithYo/Models/AccountViewModels/RegisterViewModel.cs
+   create FunWithYo/Models/AccountViewModels/ResetPasswordViewModel.cs
+   create FunWithYo/Models/AccountViewModels/SendCodeViewModel.cs
+   create FunWithYo/Models/AccountViewModels/VerifyCodeViewModel.cs
+   create FunWithYo/Models/ManageViewModels/AddPhoneNumberViewModel.cs
+   create FunWithYo/Models/ManageViewModels/ChangePasswordViewModel.cs
+   create FunWithYo/Models/ManageViewModels/ConfigureTwoFactorViewModel.cs
+   create FunWithYo/Models/ManageViewModels/FactorViewModel.cs
+   create FunWithYo/Models/ManageViewModels/IndexViewModel.cs
+   create FunWithYo/Models/ManageViewModels/ManageLoginsViewModel.cs
+   create FunWithYo/Models/ManageViewModels/RemoveLoginViewModel.cs
+   create FunWithYo/Models/ManageViewModels/SetPasswordViewModel.cs
+   create FunWithYo/Models/ManageViewModels/VerifyPhoneNumberViewModel.cs
+   create FunWithYo/Properties/launchSettings.json
+   create FunWithYo/Services/IEmailSender.cs
+   create FunWithYo/Services/ISmsSender.cs
+   create FunWithYo/Services/MessageServices.cs
+   create FunWithYo/Views/_ViewImports.cshtml
+   create FunWithYo/Views/_ViewStart.cshtml
+   create FunWithYo/Views/Account/ConfirmEmail.cshtml
+   create FunWithYo/Views/Account/ExternalLoginConfirmation.cshtml
+   create FunWithYo/Views/Account/ExternalLoginFailure.cshtml
+   create FunWithYo/Views/Account/ForgotPassword.cshtml
+   create FunWithYo/Views/Account/ForgotPasswordConfirmation.cshtml
+   create FunWithYo/Views/Account/Lockout.cshtml
+   create FunWithYo/Views/Account/Login.cshtml
+   create FunWithYo/Views/Account/Register.cshtml
+   create FunWithYo/Views/Account/ResetPassword.cshtml
+   create FunWithYo/Views/Account/ResetPasswordConfirmation.cshtml
+   create FunWithYo/Views/Account/SendCode.cshtml
+   create FunWithYo/Views/Account/VerifyCode.cshtml
+   create FunWithYo/Views/Home/About.cshtml
+   create FunWithYo/Views/Home/Contact.cshtml
+   create FunWithYo/Views/Home/Index.cshtml
+   create FunWithYo/Views/Manage/AddPhoneNumber.cshtml
+   create FunWithYo/Views/Manage/ChangePassword.cshtml
+   create FunWithYo/Views/Manage/Index.cshtml
+   create FunWithYo/Views/Manage/ManageLogins.cshtml
+   create FunWithYo/Views/Manage/SetPassword.cshtml
+   create FunWithYo/Views/Manage/VerifyPhoneNumber.cshtml
+   create FunWithYo/Views/Shared/_Layout.cshtml
+   create FunWithYo/Views/Shared/_LoginPartial.cshtml
+   create FunWithYo/Views/Shared/_ValidationScriptsPartial.cshtml
+   create FunWithYo/Views/Shared/Error.cshtml
+   create FunWithYo/wwwroot/css/site.css
+   create FunWithYo/wwwroot/css/site.min.css
+   create FunWithYo/wwwroot/favicon.ico
+   create FunWithYo/wwwroot/images/banner1.svg
+   create FunWithYo/wwwroot/images/banner2.svg
+   create FunWithYo/wwwroot/images/banner3.svg
+   create FunWithYo/wwwroot/images/banner4.svg
+   create FunWithYo/wwwroot/js/site.js
+   create FunWithYo/wwwroot/js/site.min.js
+   create FunWithYo/web.config
+   create FunWithYo/global.json
+
+
+I'm all done. Running bower install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+
+
+Your project is now created, you can use the following commands to get going
+    cd "FunWithYo"
+    dotnet restore
+    dotnet build (optional, build will also happen when it's run)
+    dotnet ef database update (to create the SQLite database for the project)
+    dotnet run
+
+
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ dotnet restore
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ cd funwithyo
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ dotnet restore
+  Restoring packages for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj...
+  Restoring packages for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj...
+  Restoring packages for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj...
+  Restoring packages for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj...
+  Installing Microsoft.NETCore.Jit 1.0.2.
+  Installing Microsoft.NETCore.Runtime.CoreCLR 1.0.2.
+  Installing Microsoft.NETCore.DotNetHostPolicy 1.0.1.
+  Installing Microsoft.NETCore.App 1.0.0.
+  Installing Microsoft.EntityFrameworkCore.Tools.DotNet 1.0.0-msbuild3-final.
+  Installing Microsoft.Extensions.Configuration.Abstractions 1.0.1.
+  Installing Microsoft.Extensions.Configuration 1.0.1.
+  Installing Microsoft.Extensions.Configuration.FileExtensions 1.0.1.
+  Installing Microsoft.Extensions.Configuration.Json 1.0.1.
+  Installing Microsoft.Extensions.Configuration.UserSecrets 1.0.1.
+  Installing Microsoft.Extensions.SecretManager.Tools 1.0.0-msbuild3-final.
+  Installing System.Xml.XmlSerializer 4.0.11.
+  Installing System.Private.DataContractSerialization 4.1.1.
+  Installing NuGet.Packaging.Core.Types 3.5.0-beta2-1484.
+  Installing System.Runtime.Serialization.Xml 4.1.1.
+  Installing System.Resources.Writer 4.0.0.
+  Installing System.Xml.XPath.XmlDocument 4.0.1.
+  Installing System.IO.Pipes 4.0.0.
+  Installing Microsoft.VisualStudio.Web.CodeGeneration.Tools 1.0.0-msbuild3-final.
+  Installing System.Diagnostics.TraceSource 4.0.0.
+  Installing NuGet.Packaging.Core 3.5.0-beta2-1484.
+  Installing NuGet.Common 3.5.0-beta2-1484.
+  Installing NuGet.Frameworks 3.5.0-beta2-1484.
+  Installing Microsoft.Extensions.CommandLineUtils 1.0.0.
+  Installing NuGet.Versioning 3.5.0-beta2-1484.
+  Installing Microsoft.Build.Utilities.Core 15.1.0-preview-000458-02.
+  Installing Microsoft.Build.Tasks.Core 15.1.0-preview-000458-02.
+  Installing Microsoft.Build 15.1.0-preview-000458-02.
+  Installing Microsoft.Build.Framework 15.1.0-preview-000458-02.
+  Installing NuGet.Packaging 3.5.0-beta2-1484.
+  Installing Microsoft.DotNet.ProjectModel 1.0.0-rc3-003121.
+  Installing NuGet.RuntimeModel 3.5.0-beta2-1484.
+  Installing Microsoft.Build.Runtime 15.1.0-preview-000458-02.
+  Restore completed in 11.95 sec for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj.
+  Restore completed in 11.95 sec for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj.
+  Restore completed in 12 sec for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj.
+  Installing runtime.win7-x86.runtime.native.System.Data.SqlClient.sni 4.0.1.
+  Installing runtime.win7-x64.runtime.native.System.Data.SqlClient.sni 4.0.1.
+  Installing runtime.native.System.Data.SqlClient.sni 4.0.0.
+  Installing System.Data.SqlClient 4.1.0.
+  Installing Microsoft.EntityFrameworkCore.SqlServer 1.0.3.
+  Installing Microsoft.EntityFrameworkCore.Tools 1.0.0-msbuild3-final.
+  Installing Microsoft.EntityFrameworkCore.SqlServer.Design 1.0.3.
+  Generating MSBuild file /Users/rubengpe.zavala/Documents/vscode/FunWithYo/obj/FunWithYo.csproj.nuget.g.props.
+  Generating MSBuild file /Users/rubengpe.zavala/Documents/vscode/FunWithYo/obj/FunWithYo.csproj.nuget.g.targets.
+  Writing lock file to disk. Path: /Users/rubengpe.zavala/Documents/vscode/FunWithYo/obj/project.assets.json
+  Restore completed in 15.94 sec for /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj.
+  
+  NuGet Config files used:
+      /Users/rubengpe.zavala/.nuget/NuGet/NuGet.Config
+  
+  Feeds used:
+      https://api.nuget.org/v3/index.json
+  
+  Installed:
+      49 package(s) to /Users/rubengpe.zavala/Documents/vscode/FunWithYo/FunWithYo.csproj
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ dotnet run
+Hosting environment: Production
+Content root path: /Users/rubengpe.zavala/Documents/vscode/FunWithYo
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+^C
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ code .
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ npm install generator-aspnet -g
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+
+> spawn-sync@1.0.15 postinstall /usr/local/lib/node_modules/generator-aspnet/node_modules/spawn-sync
+> node postinstall
+
+/usr/local/lib
+└─┬ generator-aspnet@0.3.3 
+  ├─┬ chai@3.5.0 
+  │ ├── assertion-error@1.0.2 
+  │ ├─┬ deep-eql@0.1.3 
+  │ │ └── type-detect@0.1.1 
+  │ └── type-detect@1.0.0 
+  ├─┬ chalk@1.1.3 
+  │ ├── ansi-styles@2.2.1 
+  │ ├── escape-string-regexp@1.0.5 
+  │ ├── has-ansi@2.0.0 
+  │ ├── strip-ansi@3.0.1 
+  │ └── supports-color@2.0.0 
+  ├─┬ findup-sync@0.3.0 
+  │ └─┬ glob@5.0.15 
+  │   ├─┬ inflight@1.0.6 
+  │   │ └── wrappy@1.0.2 
+  │   ├── inherits@2.0.3 
+  │   ├─┬ minimatch@3.0.3 
+  │   │ └─┬ brace-expansion@1.1.7 
+  │   │   ├── balanced-match@0.4.2 
+  │   │   └── concat-map@0.0.1 
+  │   ├── once@1.4.0 
+  │   └── path-is-absolute@1.0.1 
+  ├─┬ mkdirp@0.5.1 
+  │ └── minimist@0.0.8 
+  ├─┬ nconf@0.8.4 
+  │ ├── async@1.5.2 
+  │ ├── ini@1.3.4 
+  │ ├── secure-keys@1.0.0 
+  │ └─┬ yargs@3.32.0 
+  │   ├── camelcase@2.1.1 
+  │   ├── cliui@3.2.0 
+  │   ├── decamelize@1.2.0 
+  │   ├─┬ os-locale@1.4.0 
+  │   │ └─┬ lcid@1.0.0 
+  │   │   └── invert-kv@1.0.0 
+  │   ├── window-size@0.1.4 
+  │   └── y18n@3.2.1 
+  ├── uuid@2.0.3 
+  ├── vs_projectname@1.0.2 
+  ├─┬ yeoman-generator@0.19.2 
+  │ ├── async@0.9.2 
+  │ ├─┬ class-extend@0.1.2 
+  │ │ └── object-assign@2.1.1 
+  │ ├─┬ cli-table@0.3.1 
+  │ │ └── colors@1.0.3 
+  │ ├─┬ cross-spawn@0.2.9 
+  │ │ └── lru-cache@2.7.3 
+  │ ├─┬ dargs@4.1.0 
+  │ │ └── number-is-nan@1.0.1 
+  │ ├─┬ dateformat@1.0.12 
+  │ │ ├── get-stdin@4.0.1 
+  │ │ └─┬ meow@3.7.0 
+  │ │   ├── camelcase-keys@2.1.0 
+  │ │   ├─┬ loud-rejection@1.6.0 
+  │ │   │ ├─┬ currently-unhandled@0.4.1 
+  │ │   │ │ └── array-find-index@1.0.2 
+  │ │   │ └── signal-exit@3.0.2 
+  │ │   ├── map-obj@1.0.1 
+  │ │   ├── minimist@1.2.0 
+  │ │   ├─┬ normalize-package-data@2.3.8 
+  │ │   │ ├── hosted-git-info@2.4.2 
+  │ │   │ ├─┬ is-builtin-module@1.0.0 
+  │ │   │ │ └── builtin-modules@1.1.1 
+  │ │   │ ├── semver@5.3.0 
+  │ │   │ └─┬ validate-npm-package-license@3.0.1 
+  │ │   │   ├─┬ spdx-correct@1.0.2 
+  │ │   │   │ └── spdx-license-ids@1.2.2 
+  │ │   │   └── spdx-expression-parse@1.0.4 
+  │ │   ├── object-assign@4.1.1 
+  │ │   ├─┬ read-pkg-up@1.0.1 
+  │ │   │ ├─┬ find-up@1.1.2 
+  │ │   │ │ └── path-exists@2.1.0 
+  │ │   │ └─┬ read-pkg@1.1.0 
+  │ │   │   ├── load-json-file@1.1.0 
+  │ │   │   └── path-type@1.1.0 
+  │ │   ├─┬ redent@1.0.0 
+  │ │   │ ├── indent-string@2.1.0 
+  │ │   │ └── strip-indent@1.0.1 
+  │ │   └── trim-newlines@1.0.0 
+  │ ├─┬ debug@2.6.4 
+  │ │ └── ms@0.7.3 
+  │ ├── detect-conflict@1.0.1 
+  │ ├── diff@1.4.0 
+  │ ├─┬ download@4.4.3 
+  │ │ ├─┬ caw@1.2.0 
+  │ │ │ ├─┬ get-proxy@1.1.0 
+  │ │ │ │ └─┬ rc@1.2.1 
+  │ │ │ │   ├── deep-extend@0.4.1 
+  │ │ │ │   ├── minimist@1.2.0 
+  │ │ │ │   └── strip-json-comments@2.0.1 
+  │ │ │ ├── is-obj@1.0.1 
+  │ │ │ ├── object-assign@3.0.0 
+  │ │ │ └── tunnel-agent@0.4.3 
+  │ │ ├─┬ concat-stream@1.6.0 
+  │ │ │ └── typedarray@0.0.6 
+  │ │ ├─┬ each-async@1.1.1 
+  │ │ │ ├── onetime@1.1.0 
+  │ │ │ └── set-immediate-shim@1.0.1 
+  │ │ ├─┬ filenamify@1.2.1 
+  │ │ │ ├── filename-reserved-regex@1.0.0 
+  │ │ │ ├── strip-outer@1.0.0 
+  │ │ │ └── trim-repeated@1.0.0 
+  │ │ ├─┬ got@5.7.1 
+  │ │ │ ├─┬ create-error-class@3.0.2 
+  │ │ │ │ └── capture-stack-trace@1.0.0 
+  │ │ │ ├── duplexer2@0.1.4 
+  │ │ │ ├── is-redirect@1.0.0 
+  │ │ │ ├── is-retry-allowed@1.1.0 
+  │ │ │ ├── is-stream@1.1.0 
+  │ │ │ ├── lowercase-keys@1.0.0 
+  │ │ │ ├── node-status-codes@1.0.0 
+  │ │ │ ├── object-assign@4.1.1 
+  │ │ │ ├─┬ parse-json@2.2.0 
+  │ │ │ │ └─┬ error-ex@1.3.1 
+  │ │ │ │   └── is-arrayish@0.2.1 
+  │ │ │ ├─┬ pinkie-promise@2.0.1 
+  │ │ │ │ └── pinkie@2.0.4 
+  │ │ │ ├── timed-out@3.1.3 
+  │ │ │ ├── unzip-response@1.0.2 
+  │ │ │ └── url-parse-lax@1.0.0 
+  │ │ ├─┬ gulp-decompress@1.2.0 
+  │ │ │ ├─┬ archive-type@3.2.0 
+  │ │ │ │ └── file-type@3.9.0 
+  │ │ │ ├─┬ decompress@3.0.0 
+  │ │ │ │ ├── buffer-to-vinyl@1.1.0 
+  │ │ │ │ ├─┬ decompress-tar@3.1.0 
+  │ │ │ │ │ ├── is-tar@1.0.0 
+  │ │ │ │ │ ├─┬ strip-dirs@1.1.1 
+  │ │ │ │ │ │ ├─┬ is-absolute@0.1.7 
+  │ │ │ │ │ │ │ └── is-relative@0.1.3 
+  │ │ │ │ │ │ ├── is-natural-number@2.1.1 
+  │ │ │ │ │ │ ├── minimist@1.2.0 
+  │ │ │ │ │ │ └── sum-up@1.0.3 
+  │ │ │ │ │ ├─┬ tar-stream@1.5.2 
+  │ │ │ │ │ │ ├── bl@1.2.0 
+  │ │ │ │ │ │ └── end-of-stream@1.4.0 
+  │ │ │ │ │ └─┬ vinyl@0.4.6 
+  │ │ │ │ │   └── clone@0.2.0 
+  │ │ │ │ ├─┬ decompress-tarbz2@3.1.0 
+  │ │ │ │ │ ├── is-bzip2@1.0.0 
+  │ │ │ │ │ ├─┬ seek-bzip@1.0.5 
+  │ │ │ │ │ │ └─┬ commander@2.8.1 
+  │ │ │ │ │ │   └── graceful-readlink@1.0.1 
+  │ │ │ │ │ └─┬ vinyl@0.4.6 
+  │ │ │ │ │   └── clone@0.2.0 
+  │ │ │ │ ├─┬ decompress-targz@3.1.0 
+  │ │ │ │ │ ├── is-gzip@1.0.0 
+  │ │ │ │ │ └─┬ vinyl@0.4.6 
+  │ │ │ │ │   └── clone@0.2.0 
+  │ │ │ │ ├─┬ decompress-unzip@3.4.0 
+  │ │ │ │ │ ├── is-zip@1.0.0 
+  │ │ │ │ │ ├── stat-mode@0.2.2 
+  │ │ │ │ │ ├── through2@2.0.3 
+  │ │ │ │ │ └─┬ yauzl@2.7.0 
+  │ │ │ │ │   ├── buffer-crc32@0.2.13 
+  │ │ │ │ │   └─┬ fd-slicer@1.0.1 
+  │ │ │ │ │     └── pend@1.2.0 
+  │ │ │ │ └─┬ vinyl-assign@1.2.1 
+  │ │ │ │   └── object-assign@4.1.1 
+  │ │ │ └─┬ gulp-util@3.0.8 
+  │ │ │   ├── array-differ@1.0.0 
+  │ │ │   ├── array-uniq@1.0.3 
+  │ │ │   ├── beeper@1.1.1 
+  │ │ │   ├── dateformat@2.0.0 
+  │ │ │   ├─┬ fancy-log@1.3.0 
+  │ │ │   │ └── time-stamp@1.0.1 
+  │ │ │   ├─┬ gulplog@1.0.0 
+  │ │ │   │ └── glogg@1.0.0 
+  │ │ │   ├─┬ has-gulplog@0.1.0 
+  │ │ │   │ └── sparkles@1.0.0 
+  │ │ │   ├── lodash._reescape@3.0.0 
+  │ │ │   ├── lodash._reevaluate@3.0.0 
+  │ │ │   ├── lodash._reinterpolate@3.0.0 
+  │ │ │   ├─┬ lodash.template@3.6.2 
+  │ │ │   │ ├── lodash._basecopy@3.0.1 
+  │ │ │   │ ├── lodash._basetostring@3.0.1 
+  │ │ │   │ ├── lodash._basevalues@3.0.0 
+  │ │ │   │ ├── lodash._isiterateecall@3.0.9 
+  │ │ │   │ ├─┬ lodash.escape@3.2.0 
+  │ │ │   │ │ └── lodash._root@3.0.1 
+  │ │ │   │ ├─┬ lodash.keys@3.1.2 
+  │ │ │   │ │ ├── lodash._getnative@3.9.1 
+  │ │ │   │ │ ├── lodash.isarguments@3.1.0 
+  │ │ │   │ │ └── lodash.isarray@3.0.4 
+  │ │ │   │ ├── lodash.restparam@3.6.1 
+  │ │ │   │ └── lodash.templatesettings@3.1.1 
+  │ │ │   ├── minimist@1.2.0 
+  │ │ │   ├─┬ multipipe@0.1.2 
+  │ │ │   │ └─┬ duplexer2@0.0.2 
+  │ │ │   │   └─┬ readable-stream@1.1.14 
+  │ │ │   │     ├── isarray@0.0.1 
+  │ │ │   │     └── string_decoder@0.10.31 
+  │ │ │   ├── object-assign@3.0.0 
+  │ │ │   ├── through2@2.0.3 
+  │ │ │   └── vinyl@0.5.3 
+  │ │ ├── gulp-rename@1.2.2 
+  │ │ ├── is-url@1.2.2 
+  │ │ ├── object-assign@4.1.1 
+  │ │ ├── read-all-stream@3.1.0 
+  │ │ ├─┬ readable-stream@2.2.9 
+  │ │ │ ├── buffer-shims@1.0.0 
+  │ │ │ ├── core-util-is@1.0.2 
+  │ │ │ ├── isarray@1.0.0 
+  │ │ │ ├── process-nextick-args@1.0.7 
+  │ │ │ └── string_decoder@1.0.0 
+  │ │ ├── stream-combiner2@1.1.1 
+  │ │ ├─┬ vinyl@1.2.0 
+  │ │ │ ├── clone@1.0.2 
+  │ │ │ ├── clone-stats@0.0.1 
+  │ │ │ └── replace-ext@0.0.1 
+  │ │ ├─┬ vinyl-fs@2.4.4 
+  │ │ │ ├─┬ duplexify@3.5.0 
+  │ │ │ │ ├─┬ end-of-stream@1.0.0 
+  │ │ │ │ │ └── once@1.3.3 
+  │ │ │ │ └── stream-shift@1.0.0 
+  │ │ │ ├─┬ glob-stream@5.3.5 
+  │ │ │ │ ├── extend@3.0.0 
+  │ │ │ │ ├─┬ glob-parent@3.1.0 
+  │ │ │ │ │ ├─┬ is-glob@3.1.0 
+  │ │ │ │ │ │ └── is-extglob@2.1.1 
+  │ │ │ │ │ └── path-dirname@1.0.2 
+  │ │ │ │ ├─┬ micromatch@2.3.11 
+  │ │ │ │ │ ├─┬ arr-diff@2.0.0 
+  │ │ │ │ │ │ └── arr-flatten@1.0.3 
+  │ │ │ │ │ ├── array-unique@0.2.1 
+  │ │ │ │ │ ├─┬ braces@1.8.5 
+  │ │ │ │ │ │ ├─┬ expand-range@1.8.2 
+  │ │ │ │ │ │ │ └─┬ fill-range@2.2.3 
+  │ │ │ │ │ │ │   ├── is-number@2.1.0 
+  │ │ │ │ │ │ │   ├── isobject@2.1.0 
+  │ │ │ │ │ │ │   ├── randomatic@1.1.6 
+  │ │ │ │ │ │ │   └── repeat-string@1.6.1 
+  │ │ │ │ │ │ ├── preserve@0.2.0 
+  │ │ │ │ │ │ └── repeat-element@1.1.2 
+  │ │ │ │ │ ├─┬ expand-brackets@0.1.5 
+  │ │ │ │ │ │ └── is-posix-bracket@0.1.1 
+  │ │ │ │ │ ├─┬ extglob@0.3.2 
+  │ │ │ │ │ │ └── is-extglob@1.0.0 
+  │ │ │ │ │ ├── filename-regex@2.0.0 
+  │ │ │ │ │ ├── is-extglob@1.0.0 
+  │ │ │ │ │ ├── is-glob@2.0.1 
+  │ │ │ │ │ ├─┬ kind-of@3.1.0 
+  │ │ │ │ │ │ └── is-buffer@1.1.5 
+  │ │ │ │ │ ├─┬ normalize-path@2.1.1 
+  │ │ │ │ │ │ └── remove-trailing-separator@1.0.1 
+  │ │ │ │ │ ├─┬ object.omit@2.0.1 
+  │ │ │ │ │ │ ├─┬ for-own@0.1.5 
+  │ │ │ │ │ │ │ └── for-in@1.0.2 
+  │ │ │ │ │ │ └── is-extendable@0.1.1 
+  │ │ │ │ │ ├─┬ parse-glob@3.0.4 
+  │ │ │ │ │ │ ├─┬ glob-base@0.3.0 
+  │ │ │ │ │ │ │ ├── glob-parent@2.0.0 
+  │ │ │ │ │ │ │ └─┬ is-glob@2.0.1 
+  │ │ │ │ │ │ │   └── is-extglob@1.0.0 
+  │ │ │ │ │ │ ├── is-dotfile@1.0.2 
+  │ │ │ │ │ │ ├── is-extglob@1.0.0 
+  │ │ │ │ │ │ └── is-glob@2.0.1 
+  │ │ │ │ │ └─┬ regex-cache@0.4.3 
+  │ │ │ │ │   ├── is-equal-shallow@0.1.3 
+  │ │ │ │ │   └── is-primitive@2.0.0 
+  │ │ │ │ ├── ordered-read-streams@0.3.0 
+  │ │ │ │ ├─┬ to-absolute-glob@0.1.1 
+  │ │ │ │ │ └── extend-shallow@2.0.1 
+  │ │ │ │ └─┬ unique-stream@2.2.1 
+  │ │ │ │   └─┬ json-stable-stringify@1.0.1 
+  │ │ │ │     └── jsonify@0.0.0 
+  │ │ │ ├── graceful-fs@4.1.11 
+  │ │ │ ├─┬ gulp-sourcemaps@1.6.0 
+  │ │ │ │ ├── convert-source-map@1.5.0 
+  │ │ │ │ └── through2@2.0.3 
+  │ │ │ ├── is-valid-glob@0.3.0 
+  │ │ │ ├── lazystream@1.0.0 
+  │ │ │ ├── lodash.isequal@4.5.0 
+  │ │ │ ├── merge-stream@1.0.1 
+  │ │ │ ├── object-assign@4.1.1 
+  │ │ │ ├─┬ strip-bom@2.0.0 
+  │ │ │ │ └── is-utf8@0.2.1 
+  │ │ │ ├─┬ strip-bom-stream@1.0.0 
+  │ │ │ │ └── first-chunk-stream@1.0.0 
+  │ │ │ ├── through2@2.0.3 
+  │ │ │ ├─┬ through2-filter@2.0.0 
+  │ │ │ │ └── through2@2.0.3 
+  │ │ │ └── vali-date@1.0.0 
+  │ │ └─┬ ware@1.3.0 
+  │ │   └─┬ wrap-fn@0.1.5 
+  │ │     └── co@3.1.0 
+  │ ├─┬ findup-sync@0.2.1 
+  │ │ └─┬ glob@4.3.5 
+  │ │   └── minimatch@2.0.10 
+  │ ├─┬ github-username@1.1.1 
+  │ │ ├── get-stdin@1.0.0 
+  │ │ └─┬ got@2.9.2 
+  │ │   ├── infinity-agent@2.0.3 
+  │ │   ├── nested-error-stacks@1.0.2 
+  │ │   ├── prepend-http@1.0.4 
+  │ │   ├── read-all-stream@2.2.0 
+  │ │   ├── statuses@1.3.1 
+  │ │   └── timed-out@2.0.0 
+  │ ├─┬ gruntfile-editor@1.2.1 
+  │ │ ├─┬ ast-query@2.0.0 
+  │ │ │ ├─┬ acorn-jsx@3.0.1 
+  │ │ │ │ └── acorn@3.3.0 
+  │ │ │ ├─┬ escodegen-wallaby@1.6.11 
+  │ │ │ │ ├── esprima@2.7.3 
+  │ │ │ │ ├── estraverse@1.9.3 
+  │ │ │ │ ├── esutils@2.0.2 
+  │ │ │ │ ├─┬ optionator@0.8.2 
+  │ │ │ │ │ ├── deep-is@0.1.3 
+  │ │ │ │ │ ├── fast-levenshtein@2.0.6 
+  │ │ │ │ │ ├── levn@0.3.0 
+  │ │ │ │ │ ├── prelude-ls@1.1.2 
+  │ │ │ │ │ ├── type-check@0.3.2 
+  │ │ │ │ │ └── wordwrap@1.0.0 
+  │ │ │ │ └─┬ source-map@0.2.0 
+  │ │ │ │   └── amdefine@1.0.1 
+  │ │ │ ├── lodash@4.17.4 
+  │ │ │ └── traverse@0.6.6 
+  │ │ └── lodash@4.17.4 
+  │ ├─┬ html-wiring@1.2.0 
+  │ │ ├─┬ cheerio@0.19.0 
+  │ │ │ ├─┬ css-select@1.0.0 
+  │ │ │ │ ├── boolbase@1.0.0 
+  │ │ │ │ ├── css-what@1.0.0 
+  │ │ │ │ ├── domutils@1.4.3 
+  │ │ │ │ └── nth-check@1.0.1 
+  │ │ │ ├─┬ dom-serializer@0.1.0 
+  │ │ │ │ └── domelementtype@1.1.3 
+  │ │ │ ├── entities@1.1.1 
+  │ │ │ └─┬ htmlparser2@3.8.3 
+  │ │ │   ├── domelementtype@1.3.0 
+  │ │ │   ├── domhandler@2.3.0 
+  │ │ │   ├── domutils@1.5.1 
+  │ │ │   ├── entities@1.0.0 
+  │ │ │   └─┬ readable-stream@1.1.14 
+  │ │ │     ├── isarray@0.0.1 
+  │ │ │     └── string_decoder@0.10.31 
+  │ │ └─┬ detect-newline@1.0.3 
+  │ │   └── minimist@1.2.0 
+  │ ├─┬ inquirer@0.8.5 
+  │ │ ├── ansi-regex@1.1.1 
+  │ │ ├── cli-width@1.1.1 
+  │ │ ├─┬ figures@1.7.0 
+  │ │ │ └── object-assign@4.1.1 
+  │ │ ├─┬ readline2@0.1.1 
+  │ │ │ ├── mute-stream@0.0.4 
+  │ │ │ └─┬ strip-ansi@2.0.1 
+  │ │ │   └── ansi-regex@1.1.1 
+  │ │ ├── rx@2.5.3 
+  │ │ └── through@2.3.8 
+  │ ├─┬ istextorbinary@1.0.2 
+  │ │ ├── binaryextensions@1.0.1 
+  │ │ └── textextensions@1.0.2 
+  │ ├── lodash@3.10.1 
+  │ ├─┬ mem-fs-editor@1.2.3 
+  │ │ └─┬ vinyl@0.4.6 
+  │ │   └── clone@0.2.0 
+  │ ├── mime@1.3.4 
+  │ ├─┬ nopt@3.0.6 
+  │ │ └── abbrev@1.1.0 
+  │ ├── pretty-bytes@1.0.4 
+  │ ├── read-chunk@1.0.1 
+  │ ├─┬ rimraf@2.6.1 
+  │ │ └─┬ glob@7.1.1 
+  │ │   └── fs.realpath@1.0.0 
+  │ ├── run-async@0.1.0 
+  │ ├── shelljs@0.4.0 
+  │ ├─┬ sinon@1.17.7 
+  │ │ ├── formatio@1.1.1 
+  │ │ ├── lolex@1.3.2 
+  │ │ ├── samsam@1.1.2 
+  │ │ └─┬ util@0.10.3 
+  │ │   └── inherits@2.0.1 
+  │ ├── text-table@0.2.0 
+  │ ├─┬ through2@0.6.5 
+  │ │ ├─┬ readable-stream@1.0.34 
+  │ │ │ ├── isarray@0.0.1 
+  │ │ │ └── string_decoder@0.10.31 
+  │ │ └── xtend@4.0.1 
+  │ ├─┬ underscore.string@3.3.4 
+  │ │ ├── sprintf-js@1.0.3 
+  │ │ └── util-deprecate@1.0.2 
+  │ ├── user-home@1.1.1 
+  │ ├── xdg-basedir@1.0.1 
+  │ ├─┬ yeoman-assert@1.0.0 
+  │ │ ├─┬ chalk@0.5.1 
+  │ │ │ ├── ansi-styles@1.1.0 
+  │ │ │ ├─┬ has-ansi@0.1.0 
+  │ │ │ │ └── ansi-regex@0.2.1 
+  │ │ │ ├── strip-ansi@0.3.0 
+  │ │ │ └── supports-color@0.2.0 
+  │ │ └── lodash@2.4.2 
+  │ ├─┬ yeoman-environment@1.6.6 
+  │ │ ├── diff@2.2.3 
+  │ │ ├─┬ globby@4.1.0 
+  │ │ │ ├── array-union@1.0.2 
+  │ │ │ ├── arrify@1.0.1 
+  │ │ │ ├── glob@6.0.4 
+  │ │ │ ├── object-assign@4.1.1 
+  │ │ │ └── pify@2.3.0 
+  │ │ ├─┬ grouped-queue@0.3.3 
+  │ │ │ └── lodash@4.17.4 
+  │ │ ├─┬ inquirer@1.2.3 
+  │ │ │ ├── ansi-escapes@1.4.0 
+  │ │ │ ├─┬ cli-cursor@1.0.2 
+  │ │ │ │ └─┬ restore-cursor@1.0.1 
+  │ │ │ │   └── exit-hook@1.1.1 
+  │ │ │ ├── cli-width@2.1.0 
+  │ │ │ ├─┬ external-editor@1.1.1 
+  │ │ │ │ ├─┬ spawn-sync@1.0.15 
+  │ │ │ │ │ └── os-shim@0.1.3 
+  │ │ │ │ └─┬ tmp@0.0.29 
+  │ │ │ │   └── os-tmpdir@1.0.2 
+  │ │ │ ├── mute-stream@0.0.6 
+  │ │ │ ├─┬ run-async@2.3.0 
+  │ │ │ │ └── is-promise@2.1.0 
+  │ │ │ └── rx@4.1.0 
+  │ │ ├── lodash@4.17.4 
+  │ │ ├── log-symbols@1.0.2 
+  │ │ ├─┬ mem-fs@1.1.3 
+  │ │ │ ├── through2@2.0.3 
+  │ │ │ └─┬ vinyl-file@2.0.0 
+  │ │ │   └─┬ strip-bom-stream@2.0.0 
+  │ │ │     └── first-chunk-stream@2.0.0 
+  │ │ └─┬ untildify@2.1.0 
+  │ │   └── os-homedir@1.0.2 
+  │ └── yeoman-welcome@1.0.1 
+  └─┬ yosay@1.2.1 
+    ├── ansi-regex@2.1.1 
+    ├── cli-boxes@1.0.0 
+    ├── pad-component@0.0.1 
+    ├─┬ repeating@2.0.1 
+    │ └── is-finite@1.0.2 
+    ├─┬ string-width@1.0.2 
+    │ ├── code-point-at@1.1.0 
+    │ └── is-fullwidth-code-point@1.0.0 
+    ├─┬ taketalk@1.0.0 
+    │ └── minimist@1.2.0 
+    └── wrap-ansi@2.1.0 
+
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ yo aspnet
+
+     _-----_     ╭──────────────────────────╮
+    |       |    │      Welcome to the      │
+    |--(o)--|    │  marvellous ASP.NET Core │
+   `---------´   │        generator!        │
+    ( _´U`_ )    ╰──────────────────────────╯
+    /___A___\   /
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+? What type of application do you want to create? 
+  Class Library 
+  Class Library (F#) 
+  Unit Test project (MSTest) 
+❯ Unit Test project (xUnit.net) 
+  Unit Test project (MSTest) (F#) 
+  Unit Test Project (xUnit.net) (F#) 
+  Empty Web Application 
+(Move up and down to reveal more choices)
+
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ yo
+? 'Allo Rubén! What would you like to do? Find some help
+? Here are a few helpful resources.
+I will open the link you select in your browser for you View Frequently Asked Qu
+estions
+
+     _-----_     ╭───────────────────────╮
+    |       |    │      Bye from us!     │
+    |--(o)--|    │       Chat soon.      │
+   `---------´   │      Yeoman team      │
+    ( _´U`_ )    │    http://yeoman.io   │
+    /___A___\   /╰───────────────────────╯
+     |  ~  |     
+   __'.___.'__   
+ ´   `  |° ´ Y ` 
+
+Rubens-MacBook-Pro:funwithyo rubengpe.zavala$ 

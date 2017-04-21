@@ -1,0 +1,243 @@
+Last login: Tue Apr 18 22:47:09 on ttys000
+Rubens-MacBook-Pro:~ rubengpe.zavala$ dotnet new console -o hwapp
+cd hwapp
+
+Welcome to .NET Core!
+---------------------
+Learn more about .NET Core @ https://aka.ms/dotnet-docs. Use dotnet --help to see available commands or go to https://aka.ms/dotnet-cli-docs.
+
+Telemetry
+--------------
+The .NET Core tools collect usage data in order to improve your experience. The data is anonymous and does not include command-line arguments. The data is collected by Microsoft and shared with the community.
+You can opt out of telemetry by setting a DOTNET_CLI_TELEMETRY_OPTOUT environment variable to 1 using your favorite shell.
+You can read more about .NET Core tools telemetry @ https://aka.ms/dotnet-cli-telemetry.
+
+Configuring...
+-------------------
+A command is running to initially populate your local package cache, to improve restore speed and enable offline access. This command will take up to a minute to complete and will only happen once.
+Decompressing 100% 11082 ms
+Expanding 100% 188278 ms
+dotnet restore
+dotnet run
+Getting ready...
+Content generation time: 607.3077 ms
+The template "Console Application" created successfully.
+Rubens-MacBook-Pro:~ rubengpe.zavala$ cd hwapp
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ dotnet restore
+  Restoring packages for /Users/rubengpe.zavala/hwapp/hwapp.csproj...
+  Generating MSBuild file /Users/rubengpe.zavala/hwapp/obj/hwapp.csproj.nuget.g.props.
+  Generating MSBuild file /Users/rubengpe.zavala/hwapp/obj/hwapp.csproj.nuget.g.targets.
+  Writing lock file to disk. Path: /Users/rubengpe.zavala/hwapp/obj/project.assets.json
+  Restore completed in 12.12 sec for /Users/rubengpe.zavala/hwapp/hwapp.csproj.
+  
+  NuGet Config files used:
+      /Users/rubengpe.zavala/.nuget/NuGet/NuGet.Config
+  
+  Feeds used:
+      https://api.nuget.org/v3/index.json
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ dotnet run
+Hello World!
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ dotnet run
+Hello World!
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ 
+  [Restored Apr 19, 2017, 8:16:47 PM]
+Last login: Wed Apr 19 20:16:44 on ttys000
+Restored session: Tue Apr 18 23:20:23 CDT 2017
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ mkdir aspnetcoreapp
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ cd aspnetcoreapp
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd..
+-bash: cd..: command not found
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd.
+-bash: cd.: command not found
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd-
+-bash: cd-: command not found
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd -
+/Users/rubengpe.zavala/hwapp
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ cd -
+-bash: cd: /Users/rubengpe.zavala/hwapp/aspnetcoreapp: No such file or directory
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ cd documents
+-bash: cd: documents: No such file or directory
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ cd Documents
+-bash: cd: Documents: No such file or directory
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ cd -
+-bash: cd: /Users/rubengpe.zavala/hwapp/aspnetcoreapp: No such file or directory
+Rubens-MacBook-Pro:hwapp rubengpe.zavala$ cd
+Rubens-MacBook-Pro:~ rubengpe.zavala$ cd Documents
+Rubens-MacBook-Pro:Documents rubengpe.zavala$ cd vscode
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ mkdir aspnetcoreapp
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ cd aspnetcoreapp
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet new web
+Content generation time: 210.6393 ms
+The template "ASP.NET Core Empty" created successfully.
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ code aspnetcoreapp
+-bash: code: command not found
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ code aspnetcoreapp
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet restore
+  Restoring packages for /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj...
+  Generating MSBuild file /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/aspnetcoreapp.csproj.nuget.g.props.
+  Generating MSBuild file /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/aspnetcoreapp.csproj.nuget.g.targets.
+  Writing lock file to disk. Path: /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/project.assets.json
+  Restore completed in 10.13 sec for /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj.
+  
+  NuGet Config files used:
+      /Users/rubengpe.zavala/.nuget/NuGet/NuGet.Config
+  
+  Feeds used:
+      https://api.nuget.org/v3/index.json
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ code
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet run
+Hosting environment: Production
+Content root path: /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 228.9598ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.3951ms 200 
+^C
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ Application is shutting down...
+dotnet build
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Startup.cs(31,17): error CS1061: 'IApplicationBuilder' does not contain a definition for 'UseStaticFiles' and no extension method 'UseStaticFiles' accepting a first argument of type 'IApplicationBuilder' could be found (are you missing a using directive or an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+
+Build FAILED.
+
+Startup.cs(31,17): error CS1061: 'IApplicationBuilder' does not contain a definition for 'UseStaticFiles' and no extension method 'UseStaticFiles' accepting a first argument of type 'IApplicationBuilder' could be found (are you missing a using directive or an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:10.07
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet build
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Startup.cs(31,17): error CS1061: 'IApplicationBuilder' does not contain a definition for 'UseStaticFiles' and no extension method 'UseStaticFiles' accepting a first argument of type 'IApplicationBuilder' could be found (are you missing a using directive or an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+
+Build FAILED.
+
+Startup.cs(31,17): error CS1061: 'IApplicationBuilder' does not contain a definition for 'UseStaticFiles' and no extension method 'UseStaticFiles' accepting a first argument of type 'IApplicationBuilder' could be found (are you missing a using directive or an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:06.97
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ clear
+
+
+
+
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet run
+Hosting environment: Production
+Content root path: /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 127.3903ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4254ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.1052ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.1247ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/index.html  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.1159ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.0962ms 200 
+^CApplication is shutting down...
+
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet restore
+  Restoring packages for /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj...
+  Writing lock file to disk. Path: /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/obj/project.assets.json
+  Restore completed in 10.32 sec for /Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj.
+  
+  NuGet Config files used:
+      /Users/rubengpe.zavala/.nuget/NuGet/NuGet.Config
+  
+  Feeds used:
+      https://api.nuget.org/v3/index.json
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet build
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Startup.cs(31,17): error CS1061: 'IApplicationBuilder' does not contain a definition for 'UseStaticFiles' and no extension method 'UseStaticFiles' accepting a first argument of type 'IApplicationBuilder' could be found (are you missing a using directive or an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+
+Build FAILED.
+
+Startup.cs(31,17): error CS1061: 'IApplicationBuilder' does not contain a definition for 'UseStaticFiles' and no extension method 'UseStaticFiles' accepting a first argument of type 'IApplicationBuilder' could be found (are you missing a using directive or an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:14.56
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ clear
+
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ dotnet build
+Microsoft (R) Build Engine version 15.1.548.43366
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Startup.cs(10,28): error CS0234: The type or namespace name 'StaticFiles' does not exist in the namespace 'Microsoft.AspNetCore' (are you missing an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+
+Build FAILED.
+
+Startup.cs(10,28): error CS0234: The type or namespace name 'StaticFiles' does not exist in the namespace 'Microsoft.AspNetCore' (are you missing an assembly reference?) [/Users/rubengpe.zavala/Documents/vscode/aspnetcoreapp/aspnetcoreapp.csproj]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:12.96
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ clear
+
+
+
+
+
+
+
+
+Rubens-MacBook-Pro:aspnetcoreapp rubengpe.zavala$ cd -
+/Users/rubengpe.zavala/Documents/vscode
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ mkdir MvcMovie
+Rubens-MacBook-Pro:vscode rubengpe.zavala$ cd MvcMovie
+Rubens-MacBook-Pro:MvcMovie rubengpe.zavala$ dotnet new mvc
+Content generation time: 757.8453 ms
+The template "ASP.NET Core Web App" created successfully.
+Rubens-MacBook-Pro:MvcMovie rubengpe.zavala$ code
+Rubens-MacBook-Pro:MvcMovie rubengpe.zavala$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
