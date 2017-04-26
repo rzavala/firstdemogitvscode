@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.StaticFiles;
 
 namespace aspnetcoreapp
 {
@@ -29,7 +30,7 @@ namespace aspnetcoreapp
             }
 
             //esta chinfla no jalo, no agarro el html...
-            //app.UseStaticFiles();
+            app.UseStaticFiles();
 
             app.Run(async (context) =>
             {
