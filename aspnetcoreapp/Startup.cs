@@ -29,7 +29,8 @@ namespace aspnetcoreapp
                 app.UseDeveloperExceptionPage();
             }
 
-            //esta chinfla no jalo, no agarro el html...
+            //esta chinfla no jalo, no agarro el html... 
+            //neverforget agregar paquetes necesarios y ademas los using en las clases
             app.UseStaticFiles();
 
             app.Run(async (context) =>
